@@ -15,10 +15,6 @@ def file_name(file_dir):
     print(files)
     return files
 
-# cmds = 'you-get' + " -o G:/喵喵 " + url#
-# # cmd_list.append(cmds)
-# os.system(cmds)
-
 if __name__=='__main__':
     root_source=r'C:\Users\hp\Desktop\气象数据'
     file_list=file_name(root_source)

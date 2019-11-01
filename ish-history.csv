@@ -1,0 +1,16 @@
+This station history list is now deprecated.  Please refer to the new 
+station list found here:
+
+        ftp://ftp.ncdc.noaa.gov/pub/data/noaa/isd-history.csv
+
+The new list is based on more current information and will be updated 
+regularly.  If you do not see your station listed by its name, please 
+look for it using the USAF Station ID, or the WBAN number, and the 
+Latitude and Longitude.  Station names will change from time to time 
+but these IDs and their corresponding Lat/Lons are more reliable.
+
+If you have questions about this change, please contact us using info 
+found here:
+
+        http://www.ncdc.noaa.gov/contact
+
