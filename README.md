@@ -13,8 +13,8 @@ GHCND月度摘要数据库数据源自GHCN-Daily数据库，经过质量审查�
 （1）	在文件列表中找到ish-history.csv文件，文件提供了29726个气象站点，包含站点ID，站点经纬度，站点高程，站点所在城市，站点所在国家（CH代表中国），站点数据起迄时间。根据需求在excel内进行查找，筛选出想要的数据站点。从中筛选出具有2018年9月16日至9月18日数据的38个广东省范围内数据站。
 （2）	点进2018年份文件夹，将筛选后的数据站原始数据下载下来并解压。对解压后的文件进行处理，此时解压出来的文件名称格式如“578660-99999-2018”，579570代表站点ID，99999是统一的命名，2018代表数据年份。此时文件并不能直接使用，官方提供了解析脚本ishJava.java，需要安装JDK环境使用，并在同路径下添加ishJava.class类，cmd下执行命令java -classpath . ishJava 578660-99999-2019 578660-99999-2010.out。这里提供了编写好的脚本，调用deal_with_download_file(root_source)函数即可处理路径下所有文件，输出成.out格式。
 
-![Image text](https://github.com/yemanzhongting/get_rain_data/blob/master/%E5%9B%B/2.png)
+![Image text2](https://github.com/yemanzhongting/get_rain_data/blob/master/%E5%9B%BE/2.png)
 
 （3）	此时提供的数据是2018年一整年的数据，依据时间条件进行过滤，调用函数filter_time(root_source, 201809160000, 201809170000)筛选出三天的气象数据，得到筛选后的结果result.txt。
 （4）	依据处理结果进行筛选，Arcgis处理后得到降雨插值图。
-![Image text](https://github.com/yemanzhongting/get_rain_data/blob/master/%E5%9B%B/3.png)
+![Image text](https://github.com/yemanzhongting/get_rain_data/blob/master/%E5%9B%BE/3.png)
