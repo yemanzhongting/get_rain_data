@@ -17,4 +17,4 @@ GHCND月度摘要数据库数据源自GHCN-Daily数据库，经过质量审查�
 
 （3）	此时提供的数据是2018年一整年的数据，依据时间条件进行过滤，调用函数filter_time(root_source, 201809160000, 201809170000)筛选出三天的气象数据，得到筛选后的结果result.txt。
 （4）	依据处理结果进行筛选，Arcgis处理后得到降雨插值图。
-![Image text](https://github.com/yemanzhongting/get_rain_data/blob/master/%E5%9B%BE/3.png)
+![Image text](https://github.com/yemanzhongting/get_rain_data/blob/master/%E5%9B%BE/3.jpg)
