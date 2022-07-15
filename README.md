@@ -20,3 +20,5 @@ GHCND月度摘要数据库数据源自GHCN-Daily数据库，经过质量审查�
 ![Image text](https://github.com/yemanzhongting/get_rain_data/blob/master/%E5%9B%BE/3.jpg)
 (5)持续至今的气象站点
 ![Image text](https://github.com/yemanzhongting/get_rain_data/blob/master/%E5%9B%BE/station.jpg)
+
+Ref:张岩,李英冰,郑翔.基于微博数据的台风“山竹”舆情演化时空分析[J].山东大学学报(工学版),2020,50(05):118-126.
